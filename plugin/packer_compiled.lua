@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/mao/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["cyberdream.nvim"] = {
+    loaded = true,
+    path = "/home/mao/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
+    url = "https://github.com/scottmckendry/cyberdream.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/mao/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -160,11 +165,6 @@ _G.packer_plugins = {
     path = "/home/mao/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["packer.nvim"] = {
-    loaded = true,
-    path = "/home/mao/.local/share/nvim/site/pack/packer/start/packer.nvim",
-    url = "https://github.com/wbthomason/packer.nvim"
-  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/mao/.local/share/nvim/site/pack/packer/start/plenary.nvim",
@@ -174,11 +174,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mao/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/home/mao/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,

@@ -18,6 +18,9 @@ configs.setup({
     "css",
     "javascript",
     "typescript",
+    "cpp",
+    "java",
+    "rust"
   },
 
   highlight = {
