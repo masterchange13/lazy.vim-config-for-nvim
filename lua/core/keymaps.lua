@@ -25,3 +25,8 @@ keymap.set("n", "<C-H>", ":bprevious<CR>")
 -- ---------- 插件 ---------- ---
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+-- Visual 模式 Tab / Shift-Tab 缩进
+keymap.set("v", "<Tab>", ">gv", { desc = "Indent right" })
+keymap.set("v", "<S-Tab>", "<gv", { desc = "Indent left" })
+
