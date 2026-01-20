@@ -19,8 +19,18 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直新增窗口
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- 切换buffer
-keymap.set("n", "<C-L>", ":bnext<CR>")
-keymap.set("n", "<C-H>", ":bprevious<CR>")
+-- keymap.set("n", "<C-L>", ":bnext<CR>")
+-- keymap.set("n", "<C-H>", ":bprevious<CR>")
+
+-- buffer 切换（只在文件之间）
+keymap.set("n", "<S-l>", ":bnext<CR>")
+keymap.set("n", "<S-h>", ":bprevious<CR>")
+
+-- window 切换（Tree / 文件 / 分屏）
+keymap.set("n", "<C-h>", "<C-w>h")
+keymap.set("n", "<C-l>", "<C-w>l")
+keymap.set("n", "<C-j>", "<C-w>j")
+keymap.set("n", "<C-k>", "<C-w>k")
 
 -- ---------- 插件 ---------- ---
 -- nvim-tree
