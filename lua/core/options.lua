@@ -35,3 +35,5 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 -- vim.cmd[[colorscheme tokyonight-moon]]
 vim.cmd("colorscheme cyberdream")
+
+-- markdown preview

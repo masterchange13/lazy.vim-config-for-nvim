@@ -45,3 +45,5 @@ keymap.set("n", "<leader>w", ":w<CR>")
 keymap.set("v", "<Tab>", ">gv", { desc = "Indent right" })
 keymap.set("v", "<S-Tab>", "<gv", { desc = "Indent left" })
 
+-- set ctrl+~ as terminal, just like vscode
+-- keymap.set("n", "<C-`>", ":split")
